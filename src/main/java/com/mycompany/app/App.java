@@ -14,7 +14,7 @@ public class App
     }
 
     public static void main(String[] args) {
-        app=new App();
+        App app=new App();
 	app.sumNumber(1,2);
         System.out.println(app.getMessage());
     }
