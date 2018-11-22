@@ -14,8 +14,8 @@ public class App
     }
 
     public static void main(String[] args) {
-        this.sumNumber(1,2);
-        System.out.println(new this.getMessage());
+        App().sumNumber(1,2);
+        System.out.println(new App().getMessage());
     }
     private void sumNumber(int a,int b) {
 	    this.sum=a+b;
