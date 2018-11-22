@@ -22,7 +22,7 @@ public class App
 	    this.sum=a+b;
     }
     private final String getMessage() {
-        return this.sum.toString();
+        return Integer.toString(this.sum);
     }
 
 }
